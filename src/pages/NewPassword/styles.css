@@ -1,0 +1,83 @@
+#content {
+    font-size: 15px;
+    width: 300px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    background: #011E2F;
+    padding: 30px;
+
+}
+
+#content .new-password h1 {
+    text-align: center;
+    color: #fff;
+}
+
+#content .new-password > p {
+    font-family: arial;
+    font-size: 14px;
+    color: #fff;
+}
+
+#content div form div input {
+    background-color: #fff;
+    border: 1px;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: #657a86;
+    font-size: 12px;
+}
+
+#content div form p {
+    margin-top: 20px;
+    color: #fff;
+
+}
+
+#content div form div input::placeholder {
+    font-size: 12px;
+    padding: 10px;
+}
+
+#content div form button {
+    background-color: #058a38;
+    transition: 0,2s;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+
+    
+}
+
+#content div form button:hover {
+    background-color: #13b953;
+    
+}
+
+
+/* flex: 1 1;
+max-width: 740px;
+margin: 0 auto;
+padding-bottom: 48px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start; */
+
+/* background: #011E2F;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 300px;
+height: 395px;
+padding: 30px;   
+border-radius: 20px; 
+max-width: 400px;
+max-height: 400px; */

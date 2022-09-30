@@ -1,0 +1,49 @@
+.container-global-list {
+    display: flex;
+    border-bottom: 2px solid rgb(211, 203, 203);
+    background-color: #fff;
+    transition: 0.2s;
+    cursor: pointer;
+    line-height: 35px;
+}
+
+.container-global-list:hover {
+    background-color: rgb(218, 255, 255);
+}
+
+p {
+    color: #000;
+}
+
+.box-list-name {
+    width: 250px;
+    text-align: start;
+
+}
+
+.box-list-activo {
+    width: 100px;
+    text-align: center;
+}
+
+.box-list-qnt {
+    width: 100px;
+    text-align: center;
+}
+
+.box-list-value {
+    width: 100px;
+    text-align: center;
+}
+
+.box-list-edit {
+    width: 70px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.box-list-delete {
+    width: 70px;
+    text-align: center;
+    margin-top: 3px;
+}

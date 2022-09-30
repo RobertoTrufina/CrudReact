@@ -1,0 +1,126 @@
+header img {
+    display: flex;
+    height: 138px;
+    width: 100%;
+
+}
+
+div .container-invest {
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.content-register {
+    padding: 3vw;
+    display: flex;
+    background-color: rgb(220, 241, 245);
+    max-width: 100%;
+    border-radius: 15px;
+    margin: 40px 40px;
+}
+
+.content-register h2 {
+    font-size: 25px;
+
+}
+
+section .add-invest {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 0vw;
+    min-width: 32vw;
+    margin-top: 25px;
+    line-height: 40px;
+
+}
+
+section .add-invest input {
+    font-size: 15px;
+    color: #000;
+    border: rgb(77, 172, 226) solid 0.2px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 92%;
+
+}
+
+.add-invest button {
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(77, 172, 226);
+    color: #fff;
+    margin-top: 20px;
+    border: none;
+    width: 97%;
+    border-radius: 10px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+.add-invest button:hover {
+    background: rgb(58, 141, 189);
+}
+
+.box-content-invest {
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 0px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 3vw;
+    display: flex;
+    max-width: 100%;
+    border: solid 3px;
+    border-color: rgb(228, 236, 236);
+    border-radius: 15px;
+    
+
+}
+
+.content-invest h2 {
+    display: flex;
+    margin-bottom: 10px;
+    
+
+}
+
+.list-invest {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    color: rgb(161, 156, 156);
+    font-weight: bold;
+    border-bottom: 3px solid rgb(211, 203, 203);
+
+}
+
+.list-invest .name {
+    width: 250px;
+}
+
+.list-invest .activo {
+    width: 100px;
+    text-align: center;
+}
+
+.list-invest .qnt {
+    width: 100px;
+    text-align: center;
+}
+
+.list-invest .value {
+    width: 100px;
+    text-align: center;
+
+}
+
+.add-qnt-value {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 96%;
+}
