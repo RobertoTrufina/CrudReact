@@ -1,6 +1,5 @@
 import React from "react";
 
-import './assets/styles/global.css'
 
 import ProjectRoute from "./routes";
 

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import RegisterData from "../RegisterData";
+import RegisterData from "../RegisterInvest";
 
-import ButtonBack from './../../components/ButtonBack/index';
 import './styles.css';
+
+
 
 export default function NewRegister() {
 
@@ -12,7 +13,6 @@ export default function NewRegister() {
     const [investValue, setInvestValue] = useState('')
 
     const [invests, setInvests] = useState([])
-
 
     function HandleAddInvest() {
         const newInvest = {
@@ -24,7 +24,6 @@ export default function NewRegister() {
         setInvests(prevState => [...prevState, newInvest])
     }
 
-
     return (
         <>
             <header className="header" >
@@ -34,7 +33,6 @@ export default function NewRegister() {
                 <div className="content-register">
                     <section>
                         <div>
-                            <ButtonBack />
                             <h2>Cadastro de Investidores</h2>
                             <section className="add-invest">
                                 <form>
@@ -67,7 +65,7 @@ export default function NewRegister() {
                                             <p>Valor</p>
                                             <input
                                                 type="number"
-                                                placeholder="R$"
+                                                placeholder=""
                                                 onChange={e => setInvestValue(e.target.value)}
                                             />
                                         </label>
@@ -75,7 +73,7 @@ export default function NewRegister() {
                                     </div>
 
                                     <div>
-                                        <button onClick={HandleAddInvest}>
+                                        <button type="button" onClick={HandleAddInvest}>
                                             Enviar
                                         </button>
 

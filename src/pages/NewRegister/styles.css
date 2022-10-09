@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header img {
     display: flex;
     height: 138px;
@@ -83,9 +88,7 @@ section .add-invest input {
 
 .content-invest h2 {
     display: flex;
-    margin-bottom: 10px;
-    
-
+    margin-bottom: 20px;
 }
 
 .list-invest {
